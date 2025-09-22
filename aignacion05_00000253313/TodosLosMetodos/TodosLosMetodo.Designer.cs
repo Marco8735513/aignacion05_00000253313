@@ -42,13 +42,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtxi = new System.Windows.Forms.TextBox();
             this.txtxf = new System.Windows.Forms.TextBox();
-            this.txtx1 = new System.Windows.Forms.TextBox();
-            this.txtx2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.txtErrorMaximo = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
@@ -181,31 +177,17 @@
             // 
             // txtxi
             // 
-            this.txtxi.Location = new System.Drawing.Point(60, 292);
+            this.txtxi.Location = new System.Drawing.Point(168, 292);
             this.txtxi.Name = "txtxi";
             this.txtxi.Size = new System.Drawing.Size(100, 22);
             this.txtxi.TabIndex = 11;
             // 
             // txtxf
             // 
-            this.txtxf.Location = new System.Drawing.Point(193, 292);
+            this.txtxf.Location = new System.Drawing.Point(368, 292);
             this.txtxf.Name = "txtxf";
             this.txtxf.Size = new System.Drawing.Size(100, 22);
             this.txtxf.TabIndex = 12;
-            // 
-            // txtx1
-            // 
-            this.txtx1.Location = new System.Drawing.Point(528, 292);
-            this.txtx1.Name = "txtx1";
-            this.txtx1.Size = new System.Drawing.Size(100, 22);
-            this.txtx1.TabIndex = 13;
-            // 
-            // txtx2
-            // 
-            this.txtx2.Location = new System.Drawing.Point(673, 292);
-            this.txtx2.Name = "txtx2";
-            this.txtx2.Size = new System.Drawing.Size(100, 22);
-            this.txtx2.TabIndex = 14;
             // 
             // label5
             // 
@@ -220,42 +202,24 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(99, 273);
+            this.label6.Location = new System.Drawing.Point(190, 273);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(16, 16);
+            this.label6.Size = new System.Drawing.Size(39, 16);
             this.label6.TabIndex = 16;
-            this.label6.Text = "xi";
+            this.label6.Text = "xi - x1";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(236, 273);
+            this.label7.Location = new System.Drawing.Point(397, 273);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(16, 16);
+            this.label7.Size = new System.Drawing.Size(39, 16);
             this.label7.TabIndex = 17;
-            this.label7.Text = "xf";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(569, 273);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(20, 16);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "x1";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(718, 273);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(20, 16);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "x2";
+            this.label7.Text = "xf - x2";
             // 
             // txtErrorMaximo
             // 
-            this.txtErrorMaximo.Location = new System.Drawing.Point(334, 292);
+            this.txtErrorMaximo.Location = new System.Drawing.Point(550, 292);
             this.txtErrorMaximo.Name = "txtErrorMaximo";
             this.txtErrorMaximo.Size = new System.Drawing.Size(144, 22);
             this.txtErrorMaximo.TabIndex = 20;
@@ -264,7 +228,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(359, 273);
+            this.label10.Location = new System.Drawing.Point(575, 273);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(98, 16);
             this.label10.TabIndex = 21;
@@ -278,13 +242,9 @@
             this.ClientSize = new System.Drawing.Size(874, 809);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtErrorMaximo);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtx2);
-            this.Controls.Add(this.txtx1);
             this.Controls.Add(this.txtxf);
             this.Controls.Add(this.txtxi);
             this.Controls.Add(this.label4);
@@ -323,13 +283,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtxi;
         private System.Windows.Forms.TextBox txtxf;
-        private System.Windows.Forms.TextBox txtx1;
-        private System.Windows.Forms.TextBox txtx2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtErrorMaximo;
         private System.Windows.Forms.Label label10;
     }
