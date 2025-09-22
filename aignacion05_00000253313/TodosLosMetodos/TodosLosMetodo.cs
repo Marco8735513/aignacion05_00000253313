@@ -101,7 +101,7 @@ namespace aignacion05_00000253313
         }
 
         private void button5_Click(object sender, EventArgs e)
-        {
+        {   //Validaciones para no dejar espacios vacio ni poner letras
             try
             {
                 if (string.IsNullOrWhiteSpace(txtxi.Text) ||
