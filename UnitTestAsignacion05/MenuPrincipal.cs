@@ -39,7 +39,7 @@ namespace aignacion05_00000253313
 
         private void btnTodosLosMetodos_Click(object sender, EventArgs e)
         {
-            TodosLosMetodo formTodosLosMetodos = new TodosLosMetodo();
+            TodosLosMetodos formTodosLosMetodos = new TodosLosMetodos();
             formTodosLosMetodos.Show();
         }
     }
